@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: passion;
+    src: url(fonts/PassionOne-Bold.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: sriracha;
+    src: url(fonts/Sriracha-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    /*background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;*/
+}
+
+header{
+    background-color: black;
+    margin-top: -140px;
+    margin-bottom: -40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+header > h1{
+    font-family: 'passion';
+    font-variant: small-caps;
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+      
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: -60px;
+    padding-bottom: 50px;
+    font-size: 1.7vw;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+article{
+    font-family: 'sriracha';
+    font-size: 3.5vw;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.estrofe1{
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 0px;
+    
+    
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 220px;
+
+
+}
+
+.estrofe2{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    width: 41vw;   
+}
+
+.estrofe3{
+    background-color: white;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.estrofe4{
+    background-color: white;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-bottom: 150px;
+}
+
+.estrofe5{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    width: 41vw;   
+}
+
+.estrofe6{
+    background-color: white;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.estrofe7{
+    background-color: white;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-bottom: 150px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+section#imagem1{
+    background-image: url(imagens/joaninha.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section#imagem2{
+    background-image: url(imagens/background0021.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
